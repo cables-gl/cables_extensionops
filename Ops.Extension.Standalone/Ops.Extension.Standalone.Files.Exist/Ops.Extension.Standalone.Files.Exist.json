@@ -32,5 +32,6 @@
     "summary": "Check if a file exists on the local file system",
     "docs": {
         "ports": []
-    }
+    },
+    "exampleProjectId": "XlQrun"
 }
