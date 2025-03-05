@@ -21,7 +21,13 @@
         "subpatchop"
     ],
     "layout": {
-        "portsIn": [],
+        "portsIn": [
+            {
+                "type": 1,
+                "name": "cke3ipv4p",
+                "uititle": "Trigger_3"
+            }
+        ],
         "portsOut": []
     }
 }
