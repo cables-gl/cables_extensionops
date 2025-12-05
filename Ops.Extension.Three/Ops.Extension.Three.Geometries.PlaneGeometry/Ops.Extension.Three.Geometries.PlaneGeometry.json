@@ -1,14 +1,20 @@
 {
-    "id": "25d24fbe-fa4e-42e3-bb7a-b018ea11477d",
-    "created": 1764598683628,
+    "id": "d828ff21-9857-4665-bb64-07f2863c3203",
+    "created": 1764937259174,
     "license": "MIT",
-    "authorName": "pandur",
+    "authorName": "stephan",
     "changelog": [
         {
             "message": "op created",
             "type": "new op",
             "author": "pandur",
             "date": 1764597840730
+        },
+        {
+            "message": "op created",
+            "type": "new op",
+            "author": "stephan",
+            "date": 1764937259175
         }
     ],
     "layout": {
@@ -25,22 +31,12 @@
             },
             {
                 "type": 0,
-                "name": "Depth",
-                "subType": "number"
-            },
-            {
-                "type": 0,
                 "name": "Width Segments",
                 "subType": "integer"
             },
             {
                 "type": 0,
                 "name": "Height Segments",
-                "subType": "integer"
-            },
-            {
-                "type": 0,
-                "name": "Depth Segments",
                 "subType": "integer"
             }
         ],
@@ -60,29 +56,20 @@
         "ports": [
             {
                 "name": "Width",
-                "text": "The length of the edges parallel to the X axis"
+                "text": "The width along the X axis"
             },
             {
                 "name": "Height",
-                "text": "The length of the edges parallel to the Y axis"
-            },
-            {
-                "name": "Depth",
-                "text": "The length of the edges parallel to the Z axis"
+                "text": "The height along the Y axis"
             },
             {
                 "name": "Width Segments",
-                "text": "Number of segmented rectangular faces along the width of the sides"
+                "text": "The number of segments along the X axis"
             },
             {
                 "name": "Height Segments",
-                "text": "Number of segmented rectangular faces along the height of the sides"
-            },
-            {
-                "name": "Depth Segments",
-                "text": "Number of segmented rectangular faces along the depth of the sides"
+                "text": "The number of segments along the Y axis"
             }
         ]
-    },
-    "exampleProjectId": "lCULv4"
+    }
 }

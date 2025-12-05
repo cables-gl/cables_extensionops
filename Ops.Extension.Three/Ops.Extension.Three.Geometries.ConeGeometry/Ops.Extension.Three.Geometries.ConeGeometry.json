@@ -61,7 +61,6 @@
         "three"
     ],
     "summary": "Create a cone geometry",
-    "exampleProjectId": "8nYKq4",
     "docs": {
         "ports": [
             {
@@ -86,11 +85,11 @@
             },
             {
                 "name": "Theta Start",
-                "text": "Start angle for first segment, in radians"
+                "text": "Start angle for first segment"
             },
             {
                 "name": "Theta Length",
-                "text": "The central angle, often called theta, of the circular sector, in radians"
+                "text": "The central angle, often called theta, of the circular sector"
             }
         ]
     }
