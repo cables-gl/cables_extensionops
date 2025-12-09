@@ -40,7 +40,7 @@ function update()
         inHeight.get(),
         inRadialSegments.get(),
         inHeightSegments.get(),
-        inOpenEnded.get(),
+        !!inOpenEnded.get(),
         thetaStart,
         thetaLength
     );
