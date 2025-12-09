@@ -1,5 +1,5 @@
 const
-    inRadius = op.inFloat("Radius", 1),
+    inRadius = op.inFloat("Radius Top", 1),
     inRadiusBottom = op.inFloat("Radius Bottom", 1),
     inHeight = op.inFloat("Height", 1),
     inRadialSegments = op.inInt("Radial Segments", 32),
@@ -43,7 +43,7 @@ function update()
         inHeight.get(),
         inRadialSegments.get(),
         inHeightSegments.get(),
-        inOpenEnded.get(),
+        !!inOpenEnded.get(),
         thetaStart,
         thetaLength
     );

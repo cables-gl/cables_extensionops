@@ -51,7 +51,7 @@
     "coreLibs": [
         "three"
     ],
-    "summary": "Create a box/cube geometry",
+    "summary": "Create plane/recatangle geometry",
     "docs": {
         "ports": [
             {
@@ -71,5 +71,6 @@
                 "text": "The number of segments along the Y axis"
             }
         ]
-    }
+    },
+    "exampleProjectId": "DE0iS4"
 }

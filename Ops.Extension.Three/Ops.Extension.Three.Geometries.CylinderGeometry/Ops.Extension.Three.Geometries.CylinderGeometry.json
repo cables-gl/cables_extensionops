@@ -15,7 +15,7 @@
         "portsIn": [
             {
                 "type": 0,
-                "name": "Radius",
+                "name": "Radius Top",
                 "subType": "number"
             },
             {
@@ -101,5 +101,6 @@
                 "text": "The central angle, often called theta, of the circular sector"
             }
         ]
-    }
+    },
+    "exampleProjectId": "M6EeS4"
 }
